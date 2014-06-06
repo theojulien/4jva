@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
   <services>
-    <service name="GraduateServices">
-      <implementation-class>com.school.mooc.web.resources.GraduateServices</implementation-class>
-    </service>
     <service name="CoursesResources">
       <implementation-class>com.school.mooc.web.resources.CoursesResources</implementation-class>
-    </service>
-    <service name="QuizzServices">
-      <implementation-class>com.school.mooc.web.resources.QuizzServices</implementation-class>
     </service>
     <service name="UserResources">
       <implementation-class>com.school.mooc.web.resources.UserResources</implementation-class>
     </service>
     <service name="AuthenticateResources">
       <implementation-class>com.school.mooc.web.resources.AuthenticateResources</implementation-class>
+    </service>
+    <service name="QuizzResources">
+      <implementation-class>com.school.mooc.web.resources.QuizzResources</implementation-class>
+    </service>
+    <service name="GraduateResources">
+      <implementation-class>com.school.mooc.web.resources.GraduateResources</implementation-class>
     </service>
   </services>
   <clients/>
